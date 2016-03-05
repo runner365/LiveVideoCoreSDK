@@ -1,37 +1,37 @@
 # LiveVideoCoreSDK 
-基于IOS的手机视频直播SDK.
+基于 iOS 的手机视频直播 SDK.
 ============================
 视频直播时代来临了，手机视频直播国内已经非常火爆，并且手机美颜视频直播也已经兴起。
 
-LiveVideoCoreSDK是基于IOS的视频直播SDK
+LiveVideoCoreSDK 是基于 iOS 的视频直播 SDK
 ----------------------------------------
 
 包含一下功能:
 
-####1, 提供IOS苹果手机的RTMP推流；####
+####1, 提供 iOS 苹果手机的 RTMP 推流；####
 
-填写RTMP服务地址，直接就可以进行推流。
+填写 RTMP 服务地址，直接就可以进行推流。
 
 ####2，美颜直播####
 
-美不美都能装的直播，IOS OPENGL美艳加速，手机完全不发烫。
+美不美都能装的直播，iOS OPENGL 美艳加速，手机完全不发烫。
 
 ####3，前后摄像头随时切换####
 
-####4，提供RTMP连接状态的回调####
+####4，提供 RTMP 连接状态的回调####
 <br>
-SDK代码结构简介：
+SDK 代码结构简介：
 ----------------------------------
 ####一，如何马上使用？####
-下载代码后，直接用xcode打开LiveVideoCoreSDK.xcworkspace。(注意是xcworkspace，不是xcodeproj)
+下载代码后，直接用 Xcode 打开 LiveVideoCoreSDK.xcworkspace。(注意是 xcworkspace，不是 xcodeproj )
 
-需要注意的是，视频直播不支持xcode的虚拟机，请用iphone真机进行调试和试用。
+需要注意的是，视频直播不支持 Xcode 的虚拟机，请用 iPhone 真机进行调试和试用。
 
 
 ####二，代码结构####
-1) LiveVideoCoreDemo就是Demo例子，你抄代码的地方，你懂的。
+1) LiveVideoCoreDemo 就是 Demo 例子，你抄代码的地方，你懂的。
 
-2) LiveVideoCoreSDK是SDK接口，视频直播的接口都在这里；
+2) LiveVideoCoreSDK 是 SDK 接口，视频直播的接口都在这里；
 
 3) Pods: 核心代码，希望自己研究和改进代码的，来这里。
 
